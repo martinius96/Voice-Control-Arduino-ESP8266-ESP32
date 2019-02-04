@@ -35,7 +35,7 @@ void loop() {
   } else {
     Serial.println("certifikat nezhodny");
   }
-  String url = "/PHP_sk/preklady.txt";
+  String url = "/PHP_en/preklady.txt";
   Serial.print("poziadavka na adresu: ");
   Serial.println(url);
   client.print(String("GET ") + url + " HTTP/1.1\r\n" +
@@ -54,9 +54,9 @@ void loop() {
   String line = client.readStringUntil('\n');
   Serial.println("Vratena premenna: ");
   Serial.println(line);
-  if (line == "Zapni") { //zapnem vystup (rele alebo diodu)
+  if (line == "On") { //zapnem vystup (rele alebo diodu)
     digitalWrite(led, HIGH);
-  } else if (line == "Vypni") { //vypnem vystup (rele alebo diodu)
+  } else if (line == "Off") { //vypnem vystup (rele alebo diodu)
     digitalWrite(led, LOW);
   } else {
     Serial.println("Nepodporovana hlasova instrukcia, opakujte prikaz online");

@@ -20,7 +20,7 @@ pinMode(led, OUTPUT);
 void loop(){
 if (client.connect(serverName, 80)) {  //starts client connection, checks for connection
     Serial.println("connected");
-    client.println("GET /PHP_sk/preklady.txt HTTP/1.1"); //download text
+    client.println("GET /PHP_cz/preklady.txt HTTP/1.1"); //download text
     client.println("Host: www.arduino.php5.sk");
     client.println("Connection: close");  // ukonc HTTP/1.1 spojenie
     client.println(); //koneic requestu
