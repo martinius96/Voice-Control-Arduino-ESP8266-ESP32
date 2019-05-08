@@ -1,3 +1,10 @@
+/*|---------------------------------|*/
+/*|Projekt: Ovládanie hlasom        |*/
+/*|Autor: Martin Chlebovec          |*/
+/*|E-mail: martinius96@gmail.com    |*/
+/*|Web: https://arduino.php5.sk     |*/
+/*|Licencia pouzitia: MIT           |*/
+/*|---------------------------------|*/
 #include <WiFi.h>
 const char* ssid     = "menowifi";
 const char* password = "heslowifi";
