@@ -1,3 +1,10 @@
+/*|---------------------------------|*/
+/*|Projekt: Ovládanie hlasom        |*/
+/*|Autor: Martin Chlebovec          |*/
+/*|E-mail: martinius96@gmail.com    |*/
+/*|Web: https://arduino.php5.sk     |*/
+/*|Licencia pouzitia: MIT           |*/
+/*|---------------------------------|*/
 #include <ESP8266WiFi.h> //kniznica importovana v Arduine core, testovana verzia 2.3.0
 #include <WiFiClientSecure.h> //kniznica importovana v Arduine core, testovana verzia 2.3.0
 const int led = 16; //GPIO 16 = D0 on NodeMCU board
