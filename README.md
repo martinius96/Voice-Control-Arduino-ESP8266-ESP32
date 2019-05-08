@@ -11,3 +11,4 @@ Examples are based on language:
 # Usage
 * Upload sketch of your language, visit web interface based on your language
 * Use Google Chrome and use it under instructions on website
+* Enjoy simple voice-to-text demo
