@@ -1,3 +1,10 @@
+/*|---------------------------------|*/
+/*|Projekt: Ovládanie hlasom        |*/
+/*|Autor: Martin Chlebovec          |*/
+/*|E-mail: martinius96@gmail.com    |*/
+/*|Web: https://arduino.php5.sk     |*/
+/*|Licencia pouzitia: MIT           |*/
+/*|---------------------------------|*/
 #include "esp_wpa2.h"
 #include <WiFi.h>
 String line;
