@@ -1,3 +1,5 @@
+//CORE 2.3.0
+// NOT WORKING ON PHP5.sk!!!!
 #include <ESP8266WiFi.h> //kniznica importovana v Arduine core, testovana verzia 2.3.0
 #include <WiFiClientSecure.h> //kniznica importovana v Arduine core, testovana verzia 2.3.0
 const int led = 16; //GPIO 16 = D0 on NodeMCU board
